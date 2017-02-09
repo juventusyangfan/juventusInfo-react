@@ -4,6 +4,7 @@
  */
 import React, { Component, PropTypes } from 'react';
 import { Router, Route, IndexRoute, browserHistory, hashHistory } from 'react-router';
+import HomePage from "./container/HomePage";
 
 class Roots extends Component {
     render() {
@@ -13,10 +14,12 @@ class Roots extends Component {
     }
 }
 
+var history = process.env.NODE_ENV !== 'production' ? browserHistory : hashHistory;
 const routes = (
     <Router history={history}>
         <Route path="/" component={Roots}>
             <IndexRoute component={HomePage} />
+            <Route path="home" component={HomePage} />
         </Route>
     </Router>
 );

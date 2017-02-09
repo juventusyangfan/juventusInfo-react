@@ -1,22 +1,22 @@
 {
-  "name": "react-cnode",
+  "name": "react-juventus",
   "version": "1.0.1",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "start": "node server.js",
     "dist": "webpack --progress --colors -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lzxb/react-cnode.git"
+    "url": "git+https://github.com/juventusyangfan/juventusInfo-react.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lzxb/react-cnode/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/lzxb/react-cnode#readme",
+  "homepage": "",
   "dependencies": {
     "flex.css": "1.0.1",
     "get-next-page": "1.0.0",
